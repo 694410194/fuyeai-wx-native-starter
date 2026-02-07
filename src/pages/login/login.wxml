@@ -1,0 +1,6 @@
+<view class="page-login">
+  <view class="page-login__title">登录已失效</view>
+  <view class="page-login__desc">请点击下方按钮重新登录以继续使用核心功能</view>
+  <t-button theme="primary" block bind:tap="handleLogin">一键模拟登录</t-button>
+</view>
+

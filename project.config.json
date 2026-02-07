@@ -1,0 +1,50 @@
+{
+  "description": "副业AI-微信原生开发通用脚手架",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "minifyWXML": true,
+    "minifyWXSS": true,
+    "minifyJS": true,
+    "coverView": true,
+    "showShadowRootInWxmlPanel": true,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": true,
+    "lazyloadPlaceholderEnable": false,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "useIsolateContext": true,
+    "useCompilerPlugins": [
+      "typescript",
+      "sass"
+    ],
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./src"
+      }
+    ],
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "srcMiniprogramRoot": "src/",
+  "appid": "touristappid",
+  "projectname": "fuyeai-wx-native-starter",
+  "libVersion": "latest",
+  "simulatorType": "wechat",
+  "condition": {}
+}

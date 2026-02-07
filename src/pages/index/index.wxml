@@ -1,0 +1,32 @@
+<view class="page-index">
+  <view class="page-index__header">
+    <view class="page-index__title">副业AI微信原生脚手架</view>
+    <view class="page-index__subtitle">TypeScript + MobX + TDesign + SCSS</view>
+  </view>
+
+  <view class="page-index__card">
+    <view class="page-index__card-title">用户状态（来自 MobX）</view>
+    <view class="page-index__card-content">
+      <text class="page-index__label">登录状态：</text>
+      <text class="page-index__value">{{ isLogin ? '已登录' : '未登录' }}</text>
+    </view>
+    <view class="page-index__card-content">
+      <text class="page-index__label">昵称：</text>
+      <text class="page-index__value">{{ userInfo ? userInfo.nickname : '游客' }}</text>
+    </view>
+  </view>
+
+  <view class="page-index__actions">
+    <t-button theme="primary" block bind:tap="handleMockLogin">模拟登录（写入 Store）</t-button>
+    <t-button theme="default" block bind:tap="handleRequestDemo">请求 Demo API</t-button>
+    <t-button theme="danger" variant="outline" block bind:tap="handleLogout">退出登录</t-button>
+  </view>
+
+  <view class="page-index__tips">
+    <view class="page-index__tips-title">说明</view>
+    <view class="page-index__tips-item">1. 请求会自动附带 Token</view>
+    <view class="page-index__tips-item">2. 遇到 401 会自动清空状态并跳转登录页</view>
+    <view class="page-index__tips-item">3. develop/trial 与 release 自动切换接口域名</view>
+  </view>
+</view>
+

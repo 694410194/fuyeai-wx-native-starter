@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login"
+  ],
+  "window": {
+    "navigationBarTitleText": "副业AI脚手架",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f5f6fa",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "requiredPrivateInfos": [
+    "getUserInfo"
+  ],
+  "resolveAlias": {
+    "@/*": "src/*"
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,15 @@
+/*
+ * 全局样式入口：
+ * 1. 引入 TDesign 基础样式
+ * 2. 定义项目通用变量与基础样式
+ */
+
+@import "../miniprogram_npm/tdesign-miniprogram/common/style/index.wxss";
+
+page {
+  background-color: #f5f6fa;
+  color: #1f2329;
+  font-size: 28rpx;
+  line-height: 1.5;
+}
+

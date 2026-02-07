@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "副业AI首页",
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button"
+  }
+}
+
